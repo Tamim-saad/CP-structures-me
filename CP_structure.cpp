@@ -494,8 +494,8 @@ ll knapSack(ll n, ll W, ll wt[], ll val[]) {
 int main() {
   fast init {
     count++;
-    ll i, j, k, x, y, z, p, q, m, n, l, r, l1, l2, r1, r2, ans, flag, sum;
-    ll mini = lmax, maxi = -1, piv, piv1, piv2, low, high, rem, now, prev;
+    ll i, j, k, x, y, z, p, q, m, n, l, r, t, l1, r1, ans, pos, flag, sum;
+    ll mini = lmax, maxi = -1, piv, temp, low, high, rem, prev, now, mid, bit;
     ll dif = 0, change = 0, total = 0, same = 0, plus = 0, minus = 0, zero = 0;
 
     // char ch, ch1, ch2, ch3, ch4;
